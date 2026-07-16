@@ -7,7 +7,7 @@ export default function Hero() {
       <div className={styles.container}>
         <div className={styles.badge}>
           <span className={styles.dot} />
-          Available for opportunities
+          Open to Work - Frontend/ Full Stack/ Software Developer Roles
         </div>
         <h1 className={styles.name}>
           Monisha<br />
@@ -33,11 +33,11 @@ export default function Hero() {
           </button>
 
           <a
-    href="/RESUME_MONISHA (2).pdf"
+    href="/Monisha_Ulagappan_Resume (cluade) (1).pdf" 
     target="_blank"
     rel="noopener noreferrer"
     className={styles.btnResume}
-  >
+  > 
     📄 Resume
   </a>
         </div>

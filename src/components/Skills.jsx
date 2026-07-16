@@ -2,12 +2,12 @@ import styles from './Skills.module.css'
 
 const skillGroups = [
   { title: 'Programming Languages', icon: '💻', skills: ['Python', 'Java', 'JavaScript'], color: 'blue' },
-  { title: 'Frontend', icon: '🎨', skills: ['HTML', 'CSS', 'React.js'], color: 'teal' },
+  { title: 'Frontend', icon: '🎨', skills: ['HTML', 'CSS', 'React.js','Bootstrap','Responsive Design','Rest APIs'], color: 'teal' },
   { title: 'Backend', icon: '⚙️', skills: ['Flask', 'Node.js'], color: 'orange' },
-  { title: 'Artificial Intelligence', icon: '🤖', skills: ['Generative AI', 'Prompt Engineering', 'Machine Learning','ChatGpt', 'AI Applications'], color: 'purple' },
+  { title: 'Artificial Intelligence', icon: '🤖', skills: ['Generative AI', 'Prompt Engineering', 'Machine Learning','ChatGpt','Claude','Gemini','Antigravity'], color: 'purple' },
   { title: 'Database', icon: '🗄️', skills: ['MySQL', 'SQL Schema Design'], color: 'green' },
   { title: 'Core Subjects', icon: '📚', skills: ['Data Structures & Algorithms', 'DBMS', 'OOP', 'Artificial Intelligence'], color: 'red' },
-  { title: 'Tools & Platforms', icon: '🛠️', skills: ['GitHub', 'VS Code'], color: 'gray' },
+  { title: 'Tools & Platforms', icon: '🛠️', skills: ['GitHub', 'VS Code','Vite','Vercel','Netlify',' Render'], color: 'gray' },
 ]
 
 const softSkills = ['Problem-solving', 'Communication', 'Adaptability', 'Time Management', 'Quick Learner', 'Team Collaboration']

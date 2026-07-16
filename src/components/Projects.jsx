@@ -8,7 +8,18 @@ const projects = [
     image: 'https://images.pexels.com/photos/1004409/pexels-photo-1004409.jpeg?auto=compress&cs=tinysrgb&w=800',
     highlights: ['Real-time slot booking', 'Vehicle tracking', 'Admin dashboard', 'Payment simulation'],
     featured: true,
-    github: 'https://github.com/monisha2018',
+    github: 'https://github.com/monisha2018/Smart-Parking-Tracking-System',
+    live: 'https://smart-parking-tracking-system.vercel.app/',
+  },
+  {
+    title: 'HungerBridge Dashboard',
+    description: 'A full-stack food rescue and donation coordination platform connecting donors, volunteers, and NGOs in real time, with role-based dashboards and live pickup tracking.',
+    tech: ['React', 'Vite', 'Tailwind CSS', 'Node.js', 'Express', 'MongoDB', 'JWT'],
+    image: 'https://media.istockphoto.com/id/1498170916/photo/a-couple-is-taking-a-bag-of-food-at-the-food-and-clothes-bank.jpg?b=1&s=612x612&w=0&k=20&c=vLFun8B03R7WlF8rXcvSmjRUGeSvWchFQW5HZLCXo08=',
+    highlights: ['Real-time donation matching', 'Volunteer performance analytics', 'Pickup & delivery tracking', 'JWT-based role authentication'],
+    featured: true,
+    github: 'https://github.com/monisha2018/hungerbridge-dashboard',
+    live: 'https://hunger-bridge.netlify.app/',
   },
   {
     title: 'Post Management System (CRUD)',
@@ -17,7 +28,8 @@ const projects = [
     image: 'https://images.pexels.com/photos/270404/pexels-photo-270404.jpeg?auto=compress&cs=tinysrgb&w=800',
     highlights: ['Reusable components', 'Optimized state', 'Full CRUD operations'],
     featured: false,
-    github: 'https://github.com/monisha2018',
+    github: 'https://github.com/monisha2018/post-management',
+    live: 'https://post-managements-crud.netlify.app/',
   },
   {
     title: 'Restaurant Landing Page',
@@ -26,7 +38,8 @@ const projects = [
     image: 'https://images.pexels.com/photos/1581384/pexels-photo-1581384.jpeg?auto=compress&cs=tinysrgb&w=800',
     highlights: ['Responsive design', 'Interactive UI', 'Mobile-first'],
     featured: false,
-    github: 'https://github.com/monisha2018',
+    github: 'https://github.com/monisha2018/Resturant_landing',
+    live: 'https://monisha2018.github.io/Resturant_landing/',
   },
 ]
 
@@ -64,6 +77,11 @@ export default function Projects() {
                 <a href={project.github} target="_blank" rel="noreferrer" className={styles.link}>
                   View on GitHub →
                 </a>
+                {project.live && (
+                  <a href={project.live} target="_blank" rel="noreferrer" className={styles.link}>
+                    Live Demo →
+                  </a>
+                )}
               </div>
             </div>
           ))}

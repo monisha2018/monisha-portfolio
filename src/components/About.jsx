@@ -3,7 +3,7 @@ import styles from './About.module.css'
 const stats = [
   { value: '8.30', label: 'CGPA', suffix: '/10' },
   { value: '3', label: 'Internships', suffix: '+' },
-  { value: '3', label: 'Projects', suffix: '+' },
+  { value: '4', label: 'Projects', suffix: '+' },
   { value: '8', label: 'Certifications', suffix: '+' },
 ]
 

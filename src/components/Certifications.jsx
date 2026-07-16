@@ -8,6 +8,12 @@ year: '2025',
 icon: '🌐'
 },
 {
+name: 'Microsoft Office Essentials',
+issuer: 'Microsoft',
+year: '2025',
+icon: '📄'
+},
+{
 name: 'Introduction to Cybersecurity',
 issuer: 'Cisco Networking Academy',
 year: '2025',
@@ -92,7 +98,7 @@ export default function Certifications() {
         </div>
 
         <div className={styles.stats}>
-      <span>🏆 13 Certifications Earned</span>
+      <span>🏆 14 Certifications Earned</span>
     </div>
     
         <div className={styles.grid}>
