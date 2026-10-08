@@ -2,6 +2,36 @@ import styles from './Certifications.module.css'
 
 const certs = [
 {
+name: 'AI Foundations',
+issuer: 'OpenAI Academy', 
+year: '2026', 
+icon: '🧠'
+},
+{
+name: 'Microsoft Excel Using AI Workshop',
+issuer: 'OfficeMaster',
+year: '2026', 
+icon: '📈'
+},
+{ 
+name: 'FullStack Development MasterClass (30 Days)',
+issuer: 'NoviTech',
+year: '2026',
+icon: '💻' 
+},
+{ 
+name: 'Introduction to Cloud Infrastructure: Describe Cloud Concepts',
+issuer: 'Microsoft Learn',
+year: '2026',
+icon: '☁️' 
+},
+{ 
+name: 'Personality Value Assessment (Goodness Programme)',
+issuer: 'GoodSpace AI',
+year: '2026',
+icon: '🤝'
+},
+{
 name: 'CCNA: Introduction to Networks',
 issuer: 'Cisco Networking Academy',
 year: '2025',
@@ -98,7 +128,7 @@ export default function Certifications() {
         </div>
 
         <div className={styles.stats}>
-      <span>🏆 14 Certifications Earned</span>
+      <span>🏆 19 Certifications Earned</span>
     </div>
     
         <div className={styles.grid}>

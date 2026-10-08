@@ -68,9 +68,14 @@ export default function Navbar({ activeSection }) {
             </li>
           ))}
         </ul>
-        <a href="mailto:monishaulagappan18@gmail.com" className={styles.cta}>
-          Hire Me
-        </a>
+        <a
+  href="https://mail.google.com/mail/?view=cm&to=monishaulagappan18@gmail.com&su=Job%20Opportunity"
+  target="_blank"
+  rel="noreferrer"
+  className={styles.cta}
+>
+  Hire Me
+</a>
         <button
           className={styles.hamburger}
           onClick={() => setMenuOpen((v) => !v)}

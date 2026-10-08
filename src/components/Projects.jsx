@@ -12,6 +12,16 @@ const projects = [
     live: 'https://smart-parking-tracking-system.vercel.app/',
   },
   {
+    title: 'Local Service Finder',
+    description: 'A full-stack platform connecting customers with local service providers, with real-time chat and notifications, secure online payments, and a mobile app build.',
+    tech: ['React', 'TypeScript', 'Node.js', 'Express', 'MongoDB', 'Socket.IO', 'Razorpay', 'Tailwind CSS', 'Capacitor'],
+    image: 'https://images.pexels.com/photos/5448160/pexels-photo-5448160.jpeg?auto=compress&cs=tinysrgb&w=800',
+    highlights: ['Real-time updates with Socket.IO', 'Razorpay payment integration', 'Android/iOS build via Capacitor'],
+    featured: true,
+    github: 'https://github.com/monisha2018/local-service-finder' ,
+    live: 'https://local-service-finder-live.vercel.app/',
+  },
+  {
     title: 'HungerBridge Dashboard',
     description: 'A full-stack food rescue and donation coordination platform connecting donors, volunteers, and NGOs in real time, with role-based dashboards and live pickup tracking.',
     tech: ['React', 'Vite', 'Tailwind CSS', 'Node.js', 'Express', 'MongoDB', 'JWT'],
@@ -20,6 +30,16 @@ const projects = [
     featured: true,
     github: 'https://github.com/monisha2018/hungerbridge-dashboard',
     live: 'https://hunger-bridge.netlify.app/',
+  },
+  {
+    title: 'Interior Project Management Website (Client Project)',
+    description: 'A responsive professional website built for an interior project manager (M. Ulagappan) to showcase work, services, and contact details.',
+    tech: ['HTML', 'CSS', 'Responsive Web Design'],
+    image: 'https://images.pexels.com/photos/35189707/pexels-photo-35189707.jpeg?auto=compress&cs=tinysrgb&w=800',
+    highlights: ['Delivered for a real client', 'Fully responsive layout', 'Clean, professional design'],
+    featured: false,
+    github: 'https://github.com/monisha2018/ulagappan-interior-projects',
+    live: 'https://ulagappan-interior-projects.vercel.app/',
   },
   {
     title: 'Post Management System (CRUD)',

@@ -1,16 +1,16 @@
 import styles from './Skills.module.css'
 
 const skillGroups = [
-  { title: 'Programming Languages', icon: '💻', skills: ['Python', 'Java', 'JavaScript'], color: 'blue' },
-  { title: 'Frontend', icon: '🎨', skills: ['HTML', 'CSS', 'React.js','Bootstrap','Responsive Design','Rest APIs'], color: 'teal' },
-  { title: 'Backend', icon: '⚙️', skills: ['Flask', 'Node.js'], color: 'orange' },
+  { title: 'Programming Languages', icon: '💻', skills: ['Python', 'Java', 'JavaScript','TypeScript'], color: 'blue' },
+  { title: 'Frontend', icon: '🎨', skills: ['HTML', 'CSS', 'React.js','Bootstrap','Responsive Design','Rest APIs','Tailwind CSS'], color: 'teal' },
+  { title: 'Backend', icon: '⚙️', skills: ['Flask', 'Node.js','Express.js','Socket.IO','Razorpay'], color: 'orange' },
   { title: 'Artificial Intelligence', icon: '🤖', skills: ['Generative AI', 'Prompt Engineering', 'Machine Learning','ChatGpt','Claude','Gemini','Antigravity'], color: 'purple' },
-  { title: 'Database', icon: '🗄️', skills: ['MySQL', 'SQL Schema Design'], color: 'green' },
+  { title: 'Database', icon: '🗄️', skills: ['MySQL','MongoDB','SQL Schema Design'], color: 'green' },
   { title: 'Core Subjects', icon: '📚', skills: ['Data Structures & Algorithms', 'DBMS', 'OOP', 'Artificial Intelligence'], color: 'red' },
-  { title: 'Tools & Platforms', icon: '🛠️', skills: ['GitHub', 'VS Code','Vite','Vercel','Netlify',' Render'], color: 'gray' },
+  { title: 'Tools & Platforms', icon: '🛠️', skills: ['GitHub', 'VS Code','Vite','Vercel','Netlify',' Render','Capacitor'], color: 'gray' },
 ]
 
-const softSkills = ['Problem-solving', 'Communication', 'Adaptability', 'Time Management', 'Quick Learner', 'Team Collaboration']
+const softSkills = ['Problem-solving', 'Communication', 'Adaptability', 'Time Management', 'Quick Learner', 'Team Collaboration','Reliability', 'Friendliness', 'Kindness']
 
 export default function Skills() {
   return (

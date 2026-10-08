@@ -22,7 +22,7 @@ export default function Footer() {
         <div className={styles.social}>
           <a href="https://linkedin.com/in/monisha-ulagappan-6b6048272" target="_blank" rel="noreferrer" className={styles.socialBtn}>LinkedIn</a>
           <a href="https://github.com/monisha2018" target="_blank" rel="noreferrer" className={styles.socialBtn}>GitHub</a>
-          <a href="mailto:monishaulagappan18@gmail.com" className={styles.socialBtn}>Email</a>
+          <a href="https://mail.google.com/mail/?view=cm&to=monishaulagappan18@gmail.com&su=Job%20Opportunity" target="_blank" rel="noreferrer" className={styles.socialBtn}>Email</a>
         </div>
       </div>
       <div className={styles.bottom}>

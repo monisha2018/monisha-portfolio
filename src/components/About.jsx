@@ -3,8 +3,8 @@ import styles from './About.module.css'
 const stats = [
   { value: '8.30', label: 'CGPA', suffix: '/10' },
   { value: '3', label: 'Internships', suffix: '+' },
-  { value: '4', label: 'Projects', suffix: '+' },
-  { value: '8', label: 'Certifications', suffix: '+' },
+  { value: '6', label: 'Projects', suffix: '+' },
+  { value: '12', label: 'Certifications', suffix: '+' },
 ]
 
 export default function About() {
@@ -14,8 +14,8 @@ export default function About() {
         <div className={styles.left}>
           <div className={styles.imageWrap}>
             <img
-              src="https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=600"
-              alt="developer working"
+              src="/monisha.jpg"
+              alt="Monisha Ulagappan"
               className={styles.image}
             />
             <div className={styles.imageBadge}>

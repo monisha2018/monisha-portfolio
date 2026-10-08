@@ -15,8 +15,8 @@ export default function Hero() {
         </h1>
         <p className={styles.title}>Software Developer · B.Tech IT Graduate</p>
         <p className={styles.tagline}>
-          Building web applications with Python, Flask &amp; React.<br />
-          Passionate about clean code and intelligent systems.
+          Building full-stack web apps with React, TypeScript, Node.js &amp; MongoDB.<br />
+          Passionate about clean code and real-world products.
         </p>
         <div className={styles.actions}>
           <button
@@ -33,7 +33,7 @@ export default function Hero() {
           </button>
 
           <a
-    href="/Monisha_Ulagappan_Resume (cluade) (1).pdf" 
+    href="/Monisha_Resume.pdf" 
     target="_blank"
     rel="noopener noreferrer"
     className={styles.btnResume}
@@ -48,7 +48,7 @@ export default function Hero() {
           <a href="https://github.com/monisha2018" target="_blank" rel="noreferrer" className={styles.socialLink}>
             <GitHubIcon /> GitHub
           </a>
-          <a href="mailto:monishaulagappan18@gmail.com" className={styles.socialLink}>
+          <a href="https://mail.google.com/mail/?view=cm&to=monishaulagappan18@gmail.com&su=Job%20Opportunity" target="_blank" rel="noreferrer" className={styles.socialLink}>
             <EmailIcon /> Email
           </a>
         </div>
@@ -58,8 +58,8 @@ export default function Hero() {
         <span>Scroll down</span>
       </div>
       <img
-        src="https://images.pexels.com/photos/3861958/pexels-photo-3861958.jpeg?auto=compress&cs=tinysrgb&w=1200"
-        alt="developer workspace"
+        src="/monisha.jpg"
+        alt="Monisha Ulagappan"
         className={styles.heroBg}
       />
     </section>

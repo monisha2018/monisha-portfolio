@@ -2,7 +2,7 @@ import { useState } from 'react'
 import styles from './Contact.module.css'
 
 const contactItems = [
-  { icon: '📧', label: 'Email', value: 'monishaulagappan18@gmail.com', href: 'mailto:monishaulagappan18@gmail.com' },
+  { icon: '📧', label: 'Email', value: 'monishaulagappan18@gmail.com', href: 'https://mail.google.com/mail/?view=cm&to=monishaulagappan18@gmail.com&su=Job%20Opportunity' },
   { icon: '📱', label: 'Phone', value: '+91 8925451042', href: 'tel:+918925451042' },
   { icon: '💼', label: 'LinkedIn', value: 'monisha-ulagappan-6b6048272', href: 'https://linkedin.com/in/monisha-ulagappan-6b6048272' },
   { icon: '🐙', label: 'GitHub', value: 'github.com/monisha2018', href: 'https://github.com/monisha2018' },
@@ -17,8 +17,8 @@ export default function Contact() {
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    const mailto = `mailto:monishaulagappan18@gmail.com?subject=Portfolio Contact from ${encodeURIComponent(form.name)}&body=${encodeURIComponent(`Name: ${form.name}\nEmail: ${form.email}\n\n${form.message}`)}`
-    window.open(mailto)
+    const gmail = `https://mail.google.com/mail/?view=cm&to=monishaulagappan18@gmail.com&su=${encodeURIComponent('Portfolio Contact from ' + form.name)}&body=${encodeURIComponent(`Name: ${form.name}\nEmail: ${form.email}\n\n${form.message}`)}`
+    window.open(gmail, '_blank')
     setStatus('sent')
     setForm({ name: '', email: '', message: '' })
     setTimeout(() => setStatus(null), 4000)
